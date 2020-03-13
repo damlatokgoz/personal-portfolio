@@ -1,0 +1,113 @@
+#navbar{
+  width:100%;
+ 
+  overflow:hidden;
+  position:fixed;
+}
+#navbar a{
+  float:right;
+  margin:auto;
+  color:#f2f2f2;
+  text-align:center;
+  padding:16px 20px;
+  text-decoration:none;
+  font-size:18px;
+  transition:background .5s ease,color .5s ease;
+}
+#navbar a:hover{
+  background-color:#ff471a;
+  color:black;
+}
+#navbar a:active{
+   background-color:#ff471a;
+   color:white;
+}
+
+.nav-list{
+  width:100vw;
+  display:flex;
+  justify-content:flex-end;
+  margin-right:3rem;
+  background-color:#9575CD;
+}
+.nav-list li{
+  list-style:none;
+}
+.nav-list ul{
+   display:flex;
+}
+.nav-list a{
+  background-color:#9575CD;
+  display:block;
+  padding:0.5rem;
+  font-size:20px;
+  color:white;
+  
+}
+
+.welcome-section{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  width:100vw;
+  height:100vh;
+}
+
+.welcome-section h1{
+  color:#00ACC1;
+  font-size:3rem;
+  
+}
+body{
+  background-image:url("https://cdn.shopify.com/s/files/1/1003/7610/products/Pastel_blue_and_pink_marble_Wall_Mural_Wallpaper_a.jpg?v=1578614212")
+}
+
+div.projects{
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  margin-top:100px;
+  margin-bottom:100px;
+}
+.project-tile{
+  margin:auto;
+  border:none;
+  background-color:white;
+  text-decoration:none;
+  padding:10px;
+  width:40px;
+  transition:background 1s ease,padding .4s ease;
+  cursor:pointer;
+  font-size:25px;
+  margin:40px;
+  
+}
+.project-tile:hover{
+  padding:20px;
+  box-shadow:0px 0px 20px #1a1a1a;
+}
+a:hover{
+  text-decoration:none;
+  color:#00ACC1;
+}
+a:visited{
+  color:#00ACC1;
+}
+a{
+  color:#00ACC1;
+  text-decoration:none;
+}
+#contact-section{
+  height:100vh;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-image:linear-gradient(to bottom left,#1a1a1a,#333333);
+  margin-bottom:40px;
+}
+@media screen and (max-width:600px){
+  #navbar{position:fixed;
+}
